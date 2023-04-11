@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_qlphong"
+        android:title="Quản lý phòng"
+        android:icon="@drawable/ic_qlphong"/>
+    <item android:title="Quản lý khách hàng"
+        android:icon="@drawable/ic_qlcustomer"
+        android:id="@+id/item_qlkhachhang"/>
+    <item
+        android:title="Quản lý dịch vụ"
+        android:icon="@drawable/ic_qldichvu"
+        android:id="@+id/qldichvu"/>
+    <item
+        android:title="Cài đặt"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:id="@+id/qlcaidat"/>
+</menu>

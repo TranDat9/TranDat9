@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FFDF40"
+        app:title="Thêm Hóa Đơn" />
+
+    <EditText
+        android:id="@+id/edtIDPhong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="9dp"
+        android:background="@drawable/shapeedt"
+        android:hint="nhập ID phòng "
+        android:paddingStart="13dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="8dp" />
+    <EditText
+        android:id="@+id/edtTenKH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="9dp"
+        android:background="@drawable/shapeedt"
+        android:hint="nhập tên khách hàng "
+        android:paddingStart="13dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="8dp" />
+    <EditText
+        android:id="@+id/edtTienDV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="9dp"
+        android:background="@drawable/shapeedt"
+        android:hint="nhập tiền dịch vụ "
+        android:paddingStart="13dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="8dp" />
+
+    <EditText
+        android:id="@+id/edtNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="9dp"
+        android:background="@drawable/shapeedt"
+        android:hint="ghi chú "
+        android:paddingStart="13dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="8dp" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="84dp" >
+
+        <RadioButton
+            android:id="@+id/rdbTra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Đã trả phòng" />
+
+        <RadioButton
+            android:id="@+id/rdbCTraPhong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Chưa trả phòng" />
+    </RadioGroup>
+
+
+
+
+
+    <Button
+        android:id="@+id/btnLuuHD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="69dp"
+        android:backgroundTint="#1F9FFC"
+        android:text="Lưu" />
+    <Button
+        android:id="@+id/btnHuyHD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="69dp"
+        android:backgroundTint="#1F9FFC"
+        android:text="Hủy" />
+</LinearLayout>

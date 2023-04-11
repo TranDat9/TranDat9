@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:columnCount="2"
+android:rowCount="2">
+
+<ImageView
+
+    android:id="@+id/btnPhong"
+    android:layout_width="215dp"
+    android:layout_height="376dp"
+
+    android:src="@drawable/qlphongks" />
+
+<ImageView
+    android:id="@+id/btnKhachHang"
+    android:layout_width="196dp"
+    android:layout_height="379dp"
+    android:src="@drawable/khachhangql" />
+
+<ImageView
+
+    android:id="@+id/btnHoaDon"
+    android:layout_width="215dp"
+    android:layout_height="351dp"
+    android:src="@drawable/qlhoadon" />
+
+<ImageView
+    android:id="@+id/btnDichVu"
+    android:layout_width="195dp"
+    android:layout_height="352dp"
+    android:src="@drawable/dichvuql" />
+
+</GridLayout>

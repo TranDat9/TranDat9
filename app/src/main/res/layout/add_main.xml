@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FFDF40"
+        app:title="Thêm Phòng" />
+
+    <EditText
+        android:id="@+id/edtID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="9dp"
+        android:background="@drawable/shapeedt"
+        android:hint="nhập ID "
+        android:paddingStart="13dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="8dp" />
+    <EditText
+        android:id="@+id/edtKieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="9dp"
+        android:background="@drawable/shapeedt"
+        android:hint="nhập kiểu phòng "
+        android:paddingStart="13dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="8dp" />
+    <EditText
+        android:id="@+id/edtTT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="9dp"
+        android:background="@drawable/shapeedt"
+        android:hint="nhập 0 nếu phòng trống , phòng ko trống nhập 1 "
+        android:paddingStart="13dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="8dp" />
+
+
+
+
+
+    <Button
+        android:id="@+id/btnXN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="69dp"
+        android:backgroundTint="#1F9FFC"
+        android:text="Lưu" />
+    <Button
+        android:id="@+id/btnHuy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="69dp"
+        android:backgroundTint="#1F9FFC"
+        android:text="Hủy" />
+</LinearLayout>

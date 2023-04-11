@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="15dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FFDF40"
+        app:title="Thêm Khách Hàng" />
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="9dp"
+        android:background="@drawable/shapeedt"
+        android:hint="nhập vào tên"
+        android:paddingStart="13dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="8dp" />
+    <EditText
+        android:id="@+id/edt_citizenidentification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="9dp"
+        android:background="@drawable/shapeedt"
+        android:hint="nhập vào số căn cước công dân"
+        android:paddingStart="13dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="8dp" />
+
+    <EditText
+        android:id="@+id/edt_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="9dp"
+        android:background="@drawable/shapeedt"
+        android:hint="nhập vào địa chỉ"
+        android:paddingStart="13dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="8dp" />
+
+    <EditText
+        android:id="@+id/edt_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="9dp"
+        android:background="@drawable/shapeedt"
+        android:hint="nhập vào số điện thoại"
+        android:paddingStart="13dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="8dp" />
+
+    <Button
+        android:id="@+id/btn_luu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="69dp"
+        android:backgroundTint="#1F9FFC"
+        android:text="Lưu" />
+    <Button
+        android:id="@+id/btn_huy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="69dp"
+        android:backgroundTint="#1F9FFC"
+        android:text="Hủy" />
+</LinearLayout>

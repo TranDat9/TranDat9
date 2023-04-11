@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditMainActivity">
+
+    <EditText
+        android:id="@+id/edtsuaIDPhong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nhap ID phong " />
+
+    <EditText
+        android:id="@+id/edtsuaTenKH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="nhập tên khách hàng" />
+
+    <EditText
+        android:id="@+id/edtsuaTienDV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="nhập tiền dịch vụ " />
+    <EditText
+        android:id="@+id/edtsuaNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="ghi chú " />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="84dp" >
+
+        <RadioButton
+            android:id="@+id/rdbTra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Đã trả phòng" />
+
+        <RadioButton
+            android:id="@+id/rdbCTraPhong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Chưa trả phòng" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSuaHD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="69dp"
+        android:backgroundTint="#1F9FFC"
+        android:text="Sửa" />
+
+
+
+    <Button
+        android:id="@+id/btnHuyHD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="69dp"
+        android:backgroundTint="#1F9FFC"
+        android:text="Huy" />
+
+</LinearLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="420dp"
+        android:layout_height="36dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:text="Tên phòng" />
+
+        <TextView
+            android:id="@+id/txtIDPhong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="30dp"
+            android:text="101" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="420dp"
+        android:layout_height="36dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:text="Tên khách hàng" />
+
+        <TextView
+            android:id="@+id/txttenKH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+
+            android:text="Nguyen Van Doan" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="420dp"
+        android:layout_height="36dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tiền dịch vụ" />
+
+        <TextView
+            android:id="@+id/txtDV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="420dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ghi chú" />
+
+        <TextView
+            android:id="@+id/txtNote"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:text="Tiền dịch vụ bao gồm" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="420dp"
+        android:layout_height="36dp"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/btnEditHD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_menu_edit" />
+
+        <ImageButton
+            android:id="@+id/btnDeleteHD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_menu_delete" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="420dp"
+        android:layout_height="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTraPhong"
+            android:layout_width="288dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Chưa trả phòng"
+            android:textColor="#CF2525"
+            android:textSize="30dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
